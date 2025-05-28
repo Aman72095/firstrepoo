@@ -1,1 +1,90 @@
+Here’s a simple example of CSS to style a basic webpage:
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple CSS Example</title>
+  <style>
+    /* General body styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    /* Header styling */
+    header {
+      background: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    /* Navigation bar styling */
+    nav {
+      background: #444;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main content styling */
+    main {
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      color: #555;
+    }
+
+    /* Footer styling */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Simple Page</h1>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+  <main>
+    <h2>About This Page</h2>
+    <p>This is a simple example of how to use CSS to style a webpage. You can customize it as you like!</p>
+  </main>
+  <footer>
+    <p>&copy; 2025 Simple CSS Example</p>
+  </footer>
+</body>
+</html>
+
+
+This code demonstrates basic CSS styling for a webpage, including a header, navigation bar, main content, and footer. You can modify the colors, fonts, and layout to suit your preferences!
